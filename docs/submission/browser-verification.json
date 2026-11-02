@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-31",
+  "errors": [],
+  "mobileOverflow": false,
+  "checks": [
+    "load",
+    "map click",
+    "keyboard room selection",
+    "zoom reset",
+    "A* route",
+    "four-strategy comparison",
+    "fire scenario start pause resume",
+    "completion",
+    "JSON CSV downloads",
+    "no-safe-route outcome",
+    "mobile viewport"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "errors": [],
+  "mobileOverflow": false,
+  "mapCheck": {
+    "wrapperHeight": 570,
+    "svgHeight": 524,
+    "fits": true
+  },
+  "checks": [
+    "four visible comparison cards",
+    "same-route timing explanation",
+    "delayed-north example 213.3s vs 73.3s",
+    "show A* selects south route and scrolls map",
+    "SVG stays inside map viewport",
+    "reports comparison opens and scrolls to results",
+    "baseline unaffected after example",
+    "390px mobile layout"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "campus": {
+    "id": "dit-university-dehradun",
+    "name": "DIT University, Dehradun",
+    "notice": "Campus location names and high-level functions are based on public university references. The only routable graph is an illustrative teaching model; its layout, corridors, distances, exits, capacities, and routes are not verified DIT University information.",
+    "endorsement_notice": "This academic prototype is not approved, endorsed, or deployed by DIT University.",
+    "sources": [
+      {
+        "title": "DIT University Brochure 2023\u201324",
+        "url": "https://www.dituniversity.edu.in/pdf/dit_brochure_2023-24.pdf",
+        "supports": "Campus map labels and high-level building/function names; it does not provide verified evacuation geometry."
+      },
+      {
+        "title": "DIT University Virtual Tour",
+        "url": "https://www.dituniversity.edu.in/virtual-tour/",
+        "supports": "Public place names and selected interior labels; it is not an architectural floor plan or evacuation plan."
+      },
+      {
+        "title": "Academic Facilities",
+        "url": "https://www.dituniversity.edu.in/campus-life/academic-facilities",
+        "supports": "Public descriptions of academic facilities."
+      }
+    ]
+  },
+  "default_model_id": "dit-vedanta-illustrative",
+  "locations": [
+    {
+      "id": "vedanta",
+      "name": "Vedanta",
+      "verified_description": "The 2023\u201324 brochure lists the School of Computing, Admissions Office, Veda Library, and Indoor Auditorium at Vedanta.",
+      "source_titles": [
+        "DIT University Brochure 2023\u201324",
+        "DIT University Virtual Tour"
+      ],
+      "model_status": "illustrative_model_available"
+    },
+    {
+      "id": "chanakya",
+      "name": "Chanakya",
+      "verified_description": "The brochure identifies Chanakya as the Administrative Block and lists engineering departments there.",
+      "source_titles": [
+        "DIT University Brochure 2023\u201324",
+        "DIT University Virtual Tour"
+      ],
+      "model_status": "reference_only_no_routable_model"
+    },
+    {
+      "id": "charak",
+      "name": "Charak",
+      "verified_description": "The brochure identifies Charak with the Faculty of Pharmacy.",
+      "source_titles": [
+        "DIT University Brochure 2023\u201324",
+        "DIT University Virtual Tour"
+      ],
+      "model_status": "reference_only_no_routable_model"
+    },
+    {
+      "id": "vastu",
+      "name": "Vastu",
+      "verified_description": "The brochure identifies Vastu with the Faculty of Architecture & Design; the virtual tour uses the spelling Vaastu.",
+      "source_titles": [
+        "DIT University Brochure 2023\u201324",
+        "DIT University Virtual Tour"
+      ],
+      "model_status": "reference_only_no_routable_model"
+    },
+    {
+      "id": "vishveshwarya",
+      "name": "Vishveshwarya",
+      "verified_description": "The brochure map identifies Vishveshwarya with Civil Engineering, Petroleum & Energy Studies, and Management Studies.",
+      "source_titles": [
+        "DIT University Brochure 2023\u201324"
+      ],
+      "model_status": "reference_only_no_routable_model"
+    }
+  ],
+  "models": [
+    {
+      "id": "dit-vedanta-illustrative",
+      "building_id": "dit-vedanta-illustrative",
+      "location_id": "vedanta",
+      "name": "Vedanta \u2014 illustrative evacuation model",
+      "graph_file": "sample_building.json",
+      "status": "illustrative",
+      "floors": [
+        {
+          "id": "floor-1",
+          "name": "Ground Floor"
+        },
+        {
+          "id": "floor-2",
+          "name": "Floor 2"
+        },
+        {
+          "id": "floor-3",
+          "name": "Floor 3"
+        },
+        {
+          "id": "floor-4",
+          "name": "Floor 4"
+        },
+        {
+          "id": "floor-5",
+          "name": "Floor 5"
+        }
+      ],
+      "description": "A five-floor illustrative graph with four rooms, two computer labs and a connected staircase on each floor. The graph is designed for teaching route planning and evacuation simulation; it is not a verified floor plan."
+    }
+  ]
+}
